@@ -27,6 +27,10 @@ Per group, keep the **largest** (default), **newest**, or **sharpest** (Laplacia
 ## Install
 
 ```bash
+pip install -r requirements.txt
+```
+
+```bash
 pip install Pillow
 # or
 pip install .
