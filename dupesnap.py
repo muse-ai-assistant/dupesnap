@@ -24,7 +24,7 @@ from pathlib import Path
 try:
     from PIL import Image, ImageFilter
 except ImportError:
-    sys.exit("dupesnap requires Pillow: pip install Pillow")
+    sys.exit("dupesnap requires Pillow: pip install -r requirements.txt")
 
 VERSION = "1.0.0"
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif", ".tiff", ".tif", ".heic", ".heif"}

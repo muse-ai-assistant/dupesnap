@@ -31,7 +31,6 @@ pip install -r requirements.txt
 ```
 
 ```bash
-pip install Pillow
 # or
 pip install .
 ```
